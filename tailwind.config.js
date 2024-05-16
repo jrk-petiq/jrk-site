@@ -1,8 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html, js}", "./config.toml"],
+  content: ["./layouts/**/*.{html, js}"],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["cupcake", "dracula"],
+  },
 };
