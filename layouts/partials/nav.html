@@ -1,6 +1,106 @@
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/">About</a></li>
-  </ul>
-</nav>
+<div class="navbar bg-base-100">
+  {{/* mobile navbar */}}
+  <div class="navbar-start text-secondary">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16"
+          />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-300 rounded-box w-52"
+      >
+        <li><a class="text-xl font-thin" href="/">Home</a></li>
+        <li>
+          <details>
+            <summary class="text-xl font-thin">Store</summary>
+            <ul class="p-2 bg-base-300 rounded-t-none">
+              <li><a class="text-xl font-thin">All Products</a></li>
+              <li><a class="text-xl font-thin">eBooks</a></li>
+              <li><a class="text-xl font-thin">Paperbacks</a></li>
+              <li><a class="text-xl font-thin">Hardcovers</a></li>
+              <li><a class="text-xl font-thin">Short Stories</a></li>
+              <li><a class="text-xl font-thin">Audiobooks</a></li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary class="text-xl font-thin">Books</summary>
+            <ul class="p-2 bg-base-300 rounded-t-none">
+              <li><a class="text-xl font-thin">Oracle</a></li>
+              <li><a class="text-xl font-thin">Exiled</a></li>
+              <li><a class="text-xl font-thin">Kid's Play</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a class="text-xl font-thin">Bonus Content</a></li>
+        <li><a class="text-xl font-thin">Blog</a></li>
+        <li><a href="/about" class="text-xl font-thin">About</a></li>
+      </ul>
+    </div>
+
+    <a class="" href="/">
+      <svg
+        version="1.2"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+        width="100"
+        height="100"
+        fill="currentColor"
+      >
+        <title>jrk_courier</title>
+        <path
+          id="jrk"
+          class="s0"
+          aria-label="jrk"
+          d="m138.5 210.6q5 0 7 2.4 2.2 2.2 2.2 7.6v133.7q0 25.8-11.5 38.9-11.5 12.9-36.4 12.9-12.1 0-26.2-4.6-14-4.7-25.5-11.8-4.8-3-4.8-7.7 0-2.7 1.9-6.6 3.5-6.7 8.5-6.7 2.5 0 4.5 1.5 10.1 6.6 21 10.5 10.8 4 20.6 4 14.4 0 20.1-7.8 5.9-7.8 5.9-24.5v-121.8h-62q-5 0-7.2-2.2-2-2.4-2-7.8 0-5.4 2-7.6 2.2-2.4 7.2-2.4zm-4.7-64.3q8.1 0 11 2.2 2.9 2.1 2.9 7.4v19q0 5.3-2.9 7.5-2.9 2-11 2-8 0-11-2-2.9-2.2-2.9-7.5v-19q0-5.3 2.9-7.4 3-2.2 11-2.2zm-3.2 64.3q5 0 7 2.4 2.2 2.2 2.2 7.6v133.7q0 25.8-11.6 38.9-11.4 12.9-36.3 12.9-12.1 0-26.2-4.6-14.1-4.7-25.5-11.8-4.8-3-4.8-7.7 0-2.7 1.9-6.6 3.5-6.7 8.5-6.7 2.5 0 4.5 1.5 10.1 6.6 21 10.5 10.8 4 20.6 4 14.4 0 20.1-7.8 5.8-7.8 5.8-24.5v-121.8h-61.9q-5 0-7.2-2.2-2-2.4-2-7.8 0-5.4 2-7.6 2.2-2.4 7.2-2.4zm-4.7-64.3q8.1 0 11 2.2 2.9 2.1 2.9 7.4v19q0 5.3-2.9 7.5-2.9 2-11 2-8.1 0-11-2-2.9-2.2-2.9-7.5v-19q0-5.3 2.9-7.4 2.9-2.2 11-2.2zm161 61.1q11.4 0 21.4 5.9 5.8 3.5 5.8 9.1 0 2.6-1.3 6.1-3.1 8.4-8.5 8.4-2.2 0-4.1-1.2-7.2-4-15.4-4-13.1 0-26.5 9.3-13.3 9.1-21.9 24.3-8.5 15.2-8.5 32.4v28.4h49.3q5 0 7.1 2.3 2.2 2.2 2.2 7.6 0 5.5-2.2 7.8-2.1 2.2-7.1 2.2h-94.3q-5 0-7.2-2.2-2-2.3-2-7.8 0-5.4 2-7.6 2.2-2.3 7.2-2.3h23v-95.5h-18.6q-5 0-7.2-2.2-2-2.4-2-7.8 0-5.4 2-7.6 2.2-2.4 7.2-2.4h29.9q4.9 0 7 2.4 2.2 2.2 2.2 7.6v29.6q7-12.9 17-22.6 9.9-9.6 21.2-14.9 11.3-5.3 22.3-5.3zm-7.9 0q11.4 0 21.4 5.9 5.8 3.5 5.8 9.1 0 2.6-1.3 6.1-3.1 8.4-8.5 8.4-2.2 0-4.1-1.2-7.2-4-15.4-4-13.2 0-26.5 9.3-13.3 9.1-22 24.3-8.4 15.2-8.4 32.4v28.4h49.3q5 0 7 2.3 2.2 2.2 2.2 7.6 0 5.5-2.2 7.8-2 2.2-7 2.2h-94.3q-5 0-7.2-2.2-2-2.3-2-7.8 0-5.4 2-7.6 2.2-2.3 7.2-2.3h23v-95.5h-18.6q-5 0-7.2-2.2-2.1-2.4-2.1-7.8 0-5.4 2.1-7.6 2.2-2.4 7.2-2.4h29.9q4.9 0 7 2.4 2.2 2.2 2.2 7.6v29.6q7-12.9 17-22.6 9.9-9.6 21.2-14.9 11.3-5.3 22.3-5.3zm170.4 118.7q4.9 0 7 2.3 2.2 2.2 2.2 7.6 0 5.5-2.2 7.8-2.1 2.2-7 2.2h-47.5q-5 0-7.2-2.2-2-2.3-2-7.8 0-5.4 2-7.6 2.2-2.3 7.2-2.3h10.5l-36.7-43.7-26.7 23.5v20.2h10.7q5 0 7 2.3 2.2 2.2 2.2 7.6 0 5.5-2.2 7.8-2 2.2-7 2.2h-48.9q-5 0-7.2-2.2-2-2.3-2-7.8 0-5.4 2-7.6 2.2-2.3 7.2-2.3h16.2v-152.4h-19.1q-5 0-7.2-2.2-2.1-2.3-2.1-7.7 0-5.4 2.1-7.6 2.2-2.4 7.2-2.4h31.9q5 0 7 2.4 2.2 2.2 2.2 7.6v116l55.8-49.2h-10.4q-5 0-7.2-2.2-2-2.4-2-7.8 0-5.4 2-7.6 2.2-2.4 7.2-2.4h49q4.9 0 7 2.4 2.2 2.2 2.2 7.6 0 5.4-2.2 7.8-2.1 2.2-7 2.2h-8.7l-43.1 37.9 49.3 57.6zm-7.9 0q4.9 0 7 2.3 2.2 2.2 2.2 7.6 0 5.5-2.2 7.8-2.1 2.2-7 2.2h-47.5q-5 0-7.2-2.2-2-2.3-2-7.8 0-5.4 2-7.6 2.2-2.3 7.2-2.3h10.5l-36.7-43.7-26.7 23.5v20.2h10.7q5 0 7 2.3 2.2 2.2 2.2 7.6 0 5.5-2.2 7.8-2 2.2-7 2.2h-48.9q-5 0-7.2-2.2-2.1-2.3-2.1-7.8 0-5.4 2.1-7.6 2.2-2.3 7.2-2.3h16.2v-152.4h-19.2q-4.9 0-7.1-2.2-2.1-2.3-2.1-7.7 0-5.4 2.1-7.6 2.2-2.4 7.1-2.4h32q5 0 7 2.4 2.2 2.2 2.2 7.6v116l55.8-49.2h-10.4q-5 0-7.2-2.2-2-2.4-2-7.8 0-5.4 2-7.6 2.2-2.4 7.2-2.4h48.9q5 0 7.1 2.4 2.2 2.2 2.2 7.6 0 5.4-2.2 7.8-2.1 2.2-7.1 2.2h-8.6l-43.1 37.9 49.3 57.6z"
+        />
+      </svg>
+    </a>
+  </div>
+  {{/* desktop navbar */}}
+  <div class="navbar-end hidden lg:flex text-secondary">
+    <ul class="menu menu-horizontal px-1 text-lg font-thin">
+      <li><a href="/">Home</a></li>
+      <li>
+        <details>
+          <summary>Store</summary>
+          <ul class="p-2 bg-base-300 rounded-t-none">
+            <li><a>All Products</a></li>
+            <li><a>eBooks</a></li>
+            <li><a>Paperbacks</a></li>
+            <li><a>Hardcovers</a></li>
+            <li><a>Short Stories</a></li>
+            <li><a>Audiobooks</a></li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>Books</summary>
+          <ul class="p-2 bg-base-300 rounded-t-none">
+            <li><a>Oracle</a></li>
+            <li><a>Exiled</a></li>
+            <li><a>Kid's Play</a></li>
+          </ul>
+        </details>
+      </li>
+      <li><a>Bonus Content</a></li>
+      <li><a>Blog</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </div>
+</div>
