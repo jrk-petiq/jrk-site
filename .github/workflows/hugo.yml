@@ -48,8 +48,6 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      # - name: Install tailwindcss
-      #   run: npm install tailwindcss
       - name: Build and minify CSS
         run: npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify
       - name: Build with Hugo
