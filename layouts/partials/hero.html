@@ -1,4 +1,4 @@
-<div class="hero min-h-screen">
+<div class="hero min-h-fit py-8">
   <div class="hero-content flex-col lg:flex-row">
     {{ with resources.GetMatch "img/m_series.png" }}
     <img
@@ -9,9 +9,21 @@
     />
     {{ end }}
     <div>
-      <h1 class="text-5xl font-bold">Enter the Multiverse Series</h1>
-      <p class="py-6">Readers are saying...</p>
-      <button class="btn btn-primary">Get Started</button>
+      <h1 class="text-5xl font-thin py-6 uppercase">
+        The Multiverse Series
+      </h1>
+      <p class="py-6 text-lg font-thin">Readers are saying...</p>
+      <p class="py-6 text-lg font-thin">
+        "A world of magic meets a world of science and then the bullets start to
+        fly..."
+      </p>
+      <p class="py-6 text-lg font-thin">
+        “...a cold war between the two universes, which is on a knife's edge
+        from turning into a hot one. The Multiverse Series blends several genres
+        including the spy thriller, mad scientist, and invasion to build its own
+        epic universe, but I don't want to give anything away.”
+      </p>
+      <button class="btn btn-primary text-lg">Get Started</button>
     </div>
   </div>
 </div>
