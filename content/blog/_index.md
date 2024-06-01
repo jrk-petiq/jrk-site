@@ -1,10 +1,6 @@
-<!-- <!doctype html>
-<html data-theme="dracula" lang="en">
-  <head>
-    {{ partial "head.html" . }}
-  </head>
-  <body class="container mx-auto">
-    {{ partial "nav.html" }} {{ partial "hero.html" . }} {{ partial
-    "footer.html" }}
-  </body>
-</html> -->
+---
+title: "Blog"
+description: "Blog description"
+---
+
+# Coming soon...
