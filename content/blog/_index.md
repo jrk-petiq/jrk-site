@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html data-theme="dracula" lang="en">
   <head>
     {{ partial "head.html" . }}
@@ -7,4 +7,4 @@
     {{ partial "nav.html" }} {{ partial "hero.html" . }} {{ partial
     "footer.html" }}
   </body>
-</html>
+</html> -->
