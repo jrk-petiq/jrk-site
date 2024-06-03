@@ -1,6 +1,4 @@
 ---
-title: "Blog"
-description: "Blog description"
+title: "Books"
+description: "Books written by author John R. Kowalsky"
 ---
-
-# Coming soon...
