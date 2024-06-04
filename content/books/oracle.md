@@ -11,7 +11,7 @@ summary: "Secret nanotechnology. Humans with incredible powers. One family's sec
 
 ## Book One of the Multiverse Series
 
-{{< figure src="/img/oracle.png" class="w-1/3" alt="oracle book cover" >}}
+{{< figure src="/img/oracle.png" class="w-1/2" alt="oracle book cover" >}}
 
 {{< rawhtml >}}
 <a href="https://www.amazon.com/dp/B07MC5J3CB"><button class="btn btn-primary">Buy Oracle Now</button></a>
