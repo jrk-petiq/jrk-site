@@ -14,7 +14,7 @@ summary: "Secret nanotechnology. Humans with incredible powers. One family's sec
 {{< figure src="/img/oracle.png" class="w-1/2" alt="oracle book cover" >}}
 
 {{< rawhtml >}}
-<a href="https://www.amazon.com/dp/B07MC5J3CB"><button class="btn btn-primary">Buy Oracle Now</button></a>
+<a href="https://books2read.com/u/4DrpNr"><button class="btn btn-primary">Buy Oracle Now</button></a>
 {{< /rawhtml >}}
 
 ### _Secret nanotechnology. Humans with incredible powers. One family's secret threatens to shatter the uneasy peace between worlds._
@@ -27,5 +27,5 @@ Together, Desmond and Celia must uncover the truth about the hidden menace that 
 to stop it before they lose everything they hold dear.
 
 {{< rawhtml >}}
-<a href="https://www.amazon.com/dp/B07MC5J3CB"><button class="btn btn-primary">Buy Oracle Now</button></a>
+<a href="https://books2read.com/u/4DrpNr"><button class="btn btn-primary">Buy Oracle Now</button></a>
 {{< /rawhtml >}}

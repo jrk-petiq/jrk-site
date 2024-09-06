@@ -23,7 +23,7 @@
         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-300 rounded-box w-52"
       >
         <li><a class="text-xl font-thin" href="{{relURL ""}}">Home</a></li>
-        <li>
+        {{/*  <li>
           <details>
             <summary class="text-xl font-thin">Store</summary>
             <ul class="p-2 bg-base-300 rounded-t-none">
@@ -35,7 +35,7 @@
               <li><a href="{{relURL "coming-soon"}}" class="text-xl font-thin">Audiobooks</a></li>
             </ul>
           </details>
-        </li>
+        </li>  */}}
         <li>
           <details>
             <summary class="text-xl font-thin">Books</summary>
@@ -47,7 +47,7 @@
             </ul>
           </details>
         </li>
-        <li><a href="{{relURL "coming-soon"}}" class="text-xl font-thin">Bonus Content</a></li>
+        <li><a href="{{relURL "bonus-content"}}" class="text-xl font-thin">Bonus Content</a></li>
         <li><a href="{{relURL "blog"}}" class="text-xl font-thin">Blog</a></li>
         <li><a href="{{relURL "about"}}" class="text-xl font-thin">About</a></li>
       </ul>
@@ -76,7 +76,7 @@
   <div class="navbar-end hidden lg:flex text-secondary">
     <ul class="menu menu-horizontal px-1 text-lg font-thin">
       <li><a href="{{relURL ""}}">Home</a></li>
-      <li>
+      {{/*  <li>
         <details>
           <summary>Store</summary>
           <ul class="p-2 bg-base-300 rounded-t-none z-[1] divide-y divide-gray-600">
@@ -88,7 +88,7 @@
             <li><a href="{{relURL "coming-soon"}}">Audiobooks</a></li>
           </ul>
         </details>
-      </li>
+      </li>  */}}
       <li>
         <details>
           <summary>Books</summary>
@@ -100,7 +100,7 @@
           </ul>
         </details>
       </li>
-      <li><a href="{{relURL "coming-soon"}}">Bonus Content</a></li>
+      <li><a href="{{relURL "bonus-content"}}">Bonus Content</a></li>
       <li><a href="{{relURL "blog"}}">Blog</a></li>
       <li><a href="{{relURL "about"}}">About</a></li>
     </ul>
